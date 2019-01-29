@@ -12,7 +12,7 @@ class KubeExtra < Formula
     bin.install Dir["kube-bash", "kube-curl", "kube-desc", "kube-find", "kube-logs", "kube-url", "kube-yaml"]
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     Now you can use the commands with kube-*
   EOS
   end
