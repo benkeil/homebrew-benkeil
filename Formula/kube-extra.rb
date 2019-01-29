@@ -1,5 +1,5 @@
 class KubeExtra < Formula
-  desc "Initialization tool for minikube"
+  desc "Utils for easy handling the most common kubernetes commands"
   url "git@github.com:benkeil/kube-extra.git", :using => :git
 
   bottle :unneeded
